@@ -1,0 +1,71 @@
+header {
+    background-color: black;
+    height: 100px;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    padding-top: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #444040;
+}
+
+.row {
+    height:70px;
+}
+
+.green {
+    background-color: #9ff213;
+    height:100%;
+}
+
+.green2 {
+    background-color: #7cb914;
+    height: 100%;
+}
+
+.grandstand {
+    background-color: grey;
+    height: 100%;
+}
+
+.grandstand-top {
+    background-color: grey;
+    border-bottom: 30px solid darkgrey;
+    height: 100%;
+}
+
+.grandstand-bottom {
+    background-color: grey;
+    border-top: 30px solid darkgrey;
+    height: 100%;
+}
+
+.grandstand-left {
+    background-color: grey;
+    border-right: 20px solid darkgrey;
+    height: 100%;
+}
+
+.grandstand-right {
+    background-color: grey;
+    border-left: 20px solid darkgrey;
+    height: 100%;
+}
+
+.goal-left {
+    background-color: #dcdfe2;
+    border-right: 8px solid #f1eeee;
+    height: 100%;
+}
+
+.goal-right {
+    background-color: #dcdfe2;
+    border-right: 8px solid #f1eeee;
+    height: 100%;
+}
