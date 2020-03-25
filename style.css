@@ -142,3 +142,96 @@ body {
 .hide {
     overflow: hidden;
 }
+
+.playera1 {
+    background-color: red;
+    height: 23px;
+    width: 9px;
+    border-radius: 3px;
+    top: 50%;
+    right: 50%;
+    position: absolute;
+}
+
+.playera2 {
+    background-color: red;
+    height: 23px;
+    width: 9px;
+    border-radius: 3px;
+    transform: translateY(-50%);
+    right: 50%;
+    position: absolute;
+}
+
+#goaliea {
+    background-color: black;
+    height: 23px;
+    width: 9px;
+    border-radius: 3px;
+    transform: translateY(-50%);
+    left:2px;
+    position: absolute;
+}
+
+.playerb1 {
+    background-color: blue;
+    height: 23px;
+    width: 9px;
+    border-radius: 3px;
+    top: 50%;
+    right: 50%;
+    position: absolute;
+}
+
+.playerb2 {
+    background-color: blue;
+    height: 23px;
+    width: 9px;
+    border-radius: 3px;
+    transform: translateY(-50%);
+    right: 50%;
+    position: absolute;
+}
+
+#goalieb {
+    background-color: purple;
+    height: 23px;
+    width: 9px;
+    border-radius: 3px;
+    transform: translateY(-50%);
+    right: 2px;
+    position: absolute;
+}
+
+.head1 {
+    background-color: brown;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.head2 {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.head3 {
+    background-color: black;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
