@@ -22,11 +22,13 @@ body {
 .green {
     background-color: #9ff213;
     height:100%;
+    position: relative;
 }
 
 .green2 {
     background-color: #7cb914;
     height: 100%;
+    position: relative;
 }
 
 .grandstand {
@@ -68,4 +70,75 @@ body {
     background-color: #dcdfe2;
     border-right: 8px solid #f1eeee;
     height: 100%;
+}
+
+.line-top {
+    border-top: 2px solid white;
+}
+
+.line-bottom {
+    border-bottom: 2px solid white;
+}
+
+.line-right {
+    border-right: 2px solid white;
+}
+
+.line-left {
+    border-left: 2px solid white;
+}
+
+#center-field {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 120%;
+    width: 95%;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    z-index: 10;
+}
+
+#left-top-corner {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 20%;
+    width: 15%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+#right-top-corner {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 20%;
+    width: 15%;
+    position: absolute;
+    right:0;
+    transform: translate(50%,-50%);
+}
+
+#left-bottom-corner {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 20%;
+    width: 15%;
+    position: absolute;
+    bottom:0;
+    transform: translate(-50%,50%);
+}
+
+#right-bottom-corner {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 20%;
+    width: 15%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(50%,50%);
+}
+
+.hide {
+    overflow: hidden;
 }
